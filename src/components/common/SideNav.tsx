@@ -1,10 +1,10 @@
-import {HomeIcon, BookOpenIcon, PencilAltIcon, CloudIcon} from '@heroicons/react/solid'
+import {HomeIcon, BookOpenIcon, PencilAltIcon, CloudIcon, UserIcon} from '@heroicons/react/solid'
 import Image from 'next/image'
 import logo from "../../../public/logo.svg"
 
 function SideNav() {
   return (
-    <div className="flex flex-no-wrap">
+    <div className="flex flex-no-wrap h-screen">
       {/* Sidebar starts */}
         <div className="w-64 absolute sm:relative shadow md:h-full flex-col justify-between hidden sm:flex side-nav-global-bg">
           <div className="px-8">
@@ -40,6 +40,13 @@ function SideNav() {
                   <CloudIcon width={18} height={18}/>
                   <span className="text-sm ml-2">All Instances</span>
                 </div>
+              </li>
+            </ul>  
+          </div>
+          <div className="px-8 border-t border-gray-700">
+            <ul className="w-full flex items-center justify-between bg-gray-800">
+              <li className="curosr-pointer text-white pt-5 pb-3">
+                <UserIcon width={18} height={18} />
               </li>
             </ul>
           </div>

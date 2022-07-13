@@ -3,7 +3,7 @@ import SideNav from './SideNav'
 function Layout( {children}: {children: React.ReactNode}) {
   return (
       <>
-        <SideNav />
+      <SideNav />
         {children}
       </>
   )
