@@ -7,7 +7,13 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="">Tailwind test</div>
+     <Head>
+       <title> HOME | LOCAL LIBRARY</title>
+       <meta
+        name="description"
+        content="Rubilding MDN local library with T3-Stack"
+       />
+     </Head>
     </>
   );
 };

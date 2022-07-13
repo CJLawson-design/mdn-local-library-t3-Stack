@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
+  @apply text-white bg-gray-200;
+}
+
+/* Side Nav background color */
+.side-nav-global-bg {
   @apply text-white bg-gray-800;
 }
