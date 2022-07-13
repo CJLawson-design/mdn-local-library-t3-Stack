@@ -7,7 +7,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="text-red-800 text-6xl">Tailwind test</div>
+      <div className="">Tailwind test</div>
     </>
   );
 };
